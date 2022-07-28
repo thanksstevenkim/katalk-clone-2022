@@ -1,3 +1,3 @@
 # Katalk Clone 2022 Update
 
-CSS got so much better!
+I'm excited to do this project!
