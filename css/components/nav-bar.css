@@ -13,6 +13,29 @@
   justify-content: space-between;
 }
 
+.nav__notification {
+  background-color: tomato;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  top: -15px;
+}
+
+.doticon {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left: 30px;
+  top: -10px;
+}
+
 .nav__link {
   color: #2e363e;
+  position: relative;
 }
