@@ -30,9 +30,14 @@
       </p>
     </header>
 
-    <form action="friends.html" id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        required
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input name="password" required type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Katalk Account or Password</a>
