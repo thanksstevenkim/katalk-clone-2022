@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Notable&display=swap");
+
 @import "reset.css";
 @import "variables.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Notable", sans-serif;
+  color: #2e363e;
 }
