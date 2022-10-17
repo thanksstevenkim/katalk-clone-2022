@@ -4,13 +4,24 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  font-size: 25px;
 }
 
 .screen-header__title {
-  font-size: 32px;
   font-weight: 600;
 }
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__point-dot {
+  background-color: tomato;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  display: flex;
+  position: absolute;
+  right: 32px;
+  top: 35px;
 }
