@@ -1,0 +1,17 @@
+.more-screen .icon-row {
+  margin-top: 20px;
+}
+
+.fa-square {
+  color: white;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
